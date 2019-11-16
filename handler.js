@@ -15,7 +15,6 @@ module.exports = (event, context) => {
 	redirect = "https://nokia.com";
     } else if(event.path == "/junction")
 	redirect = "https://www.hackjunction.com/";
-    }
 
     /* Let the user know we couldn't find the URL, we could
      * also return a HTML page and set the correct encoding for the
