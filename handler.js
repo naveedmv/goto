@@ -14,7 +14,8 @@ module.exports = (event, context) => {
     } else if(event.path == "/sponsor1" || event.path == "/nokia") {
 	redirect = "https://nokia.com";
     } else if(event.path == "/junction")
-	redirect = "https://www.hackjunction.com/"
+	redirect = "https://www.hackjunction.com/";
+    }
 
     /* Let the user know we couldn't find the URL, we could
      * also return a HTML page and set the correct encoding for the
